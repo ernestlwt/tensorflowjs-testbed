@@ -103,3 +103,7 @@ ENV/
 .idea/
 *.iml
 .DS_Store
+
+
+##### added by ernest #######
+src/assets/video/
