@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ImageClassifierComponent } from './components/image-classifier/image-classifier.component';
 import { VideoClassifierComponent } from './components/video-classifier/video-classifier.component';
 import { WebcamClassifierComponent } from './components/webcam-classifier/webcam-classifier.component';
+import { VideoStreamingComponent } from './components/video-streaming/video-streaming.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WebcamClassifierComponent } from './components/webcam-classifier/webcam
     FooterComponent,
     ImageClassifierComponent,
     VideoClassifierComponent,
-    WebcamClassifierComponent
+    WebcamClassifierComponent,
+    VideoStreamingComponent
   ],
   imports: [
     BrowserModule,

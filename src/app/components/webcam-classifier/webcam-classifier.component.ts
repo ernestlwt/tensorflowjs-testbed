@@ -1,7 +1,7 @@
 import { Component, OnInit, AfterViewInit, ElementRef, Input, ViewChild } from '@angular/core';
 
 import * as cocossd from '@tensorflow-models/coco-ssd';
-import { Prediction } from '../../prediction';
+import { Prediction } from '../../result-format/prediction';
 
 @Component({
   selector: 'app-webcam-classifier',
