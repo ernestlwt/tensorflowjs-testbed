@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-auto">
+      <h5>My Video</h5>
+      <video #inVideo class="border border-primary" controls autoplay></video>
+    </div>
+    <div class="col-md-auto">
+      <h5>Output Canvas</h5>
+      <canvas #outCanvas class="border border-primary"></canvas>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-auto">
+      <input type="file" (change)="fileChanged($event)">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-auto">
+      <h3>Draw a number between 0 to 9</h3>
+      <div class="wrapper">
+        <canvas #canvas class="border border-primary"></canvas><br>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-primary" (click)="predict()">Predict</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary" (click)="clear()">Clear</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>The Predicted Number is: {{predictedNumber}}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
