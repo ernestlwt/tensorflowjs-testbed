@@ -48,6 +48,8 @@ export class VideoClassifierComponent implements OnInit {
   }
 
   async detectFrame() {
+    // we might want to draw on canvas first and predict from it
+    // if model requires a long time to predict, our bounding boxes might lag
     this.predictions = await this.model.detect(this.inVideo);
     this.drawResultOnCanvas();
     // just to note, this is not recursion it creates something like a callback
